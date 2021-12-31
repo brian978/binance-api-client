@@ -1,0 +1,6 @@
+# IDE
+.idea
+
+# Deps
+vendor
+examples/config.php

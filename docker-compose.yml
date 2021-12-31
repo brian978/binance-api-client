@@ -1,0 +1,10 @@
+version: "3"
+services:
+    php:
+        restart: always
+        image: brian978/php-fpm:8.1
+        working_dir: /var/www/app
+        volumes:
+            - ./:/var/www/app:cached
+        environment:
+            - PHP_IDE_CONFIG=serverName=binance-api
