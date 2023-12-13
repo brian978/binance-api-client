@@ -5,12 +5,16 @@ Unofficial API client written in PHP for Binance Exchange
 
 # UNDER DEVELOPMENT
 
-## Main features
+# Installation
+```shell
+composer require brian978/binance-api-client
+```
+
+# Main features
 * Compatible with any framework
 * Compatible with any logger library that implements `Psr\Log\LoggerInterface`
 * It provides an easy-to-use interface with the API using the *Query classes that are provided
 * The API parameter documentation can be found in the PHPDoc of each query object for easy use
-
 
 # How to contribute to the project
 If we are talking about a new feature, then an issue needs to be opened in order to discuss it. And after that proceed
@@ -22,7 +26,6 @@ If it's a BUG see the steps below
 1. Write the code in a new branch (see [HERE](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for more info)
 2. Make sure it's PSR-12 compliant and all the code and comments ar properly aligned
 3. Make a PR
-
 
 # Configuration examples
 ## Symfony
